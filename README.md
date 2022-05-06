@@ -4,7 +4,7 @@ Personal Portafolio Website
 
 ### List of Task
 
--   [ ] Complete Header
+-   [x] Complete Header
 -   [ ] Complelte Hero
 -   [ ] Complete Projects
 -   [ ] Complete Technologies
