@@ -1,6 +1,11 @@
 import Link from "next/link"
 import React from "react"
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import {
+	AiFillDribbbleCircle,
+	AiFillGithub,
+	AiFillInstagram,
+	AiFillLinkedin,
+} from "react-icons/ai"
 import { DiBrackets } from "react-icons/di"
 
 import {
@@ -52,8 +57,8 @@ const Header = () => (
 			<SocialIcons href="https://www.linkedin.com/in/maco-network/">
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://www.instagram.com/uleg3nd/">
-				<AiFillInstagram size="3rem" />
+			<SocialIcons href="https://dribbble.com/maco-design">
+				<AiFillDribbbleCircle size="3rem" />
 			</SocialIcons>
 		</Div3>
 	</Container>
