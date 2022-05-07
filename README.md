@@ -12,5 +12,5 @@ Personal Portafolio Website
 -   [ ] Complete Acomplishments
 -   [ ] Complete Footer
 -   [ ] Delete Unnecesary items from repository
-    -   [ ] .next
-    -   [ ] node_modules
+    -   [x] .next
+    -   [x] node_modules
