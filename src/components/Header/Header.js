@@ -29,7 +29,7 @@ const Header = () => (
 						color: "white",
 						marginBottom: "30",
 					}}>
-					<DiBrackets size="3rem" /> <Span>Portfolio</Span>
+					<DiBrackets size="3rem" /> <Span>Marco Camarena</Span>
 				</a>
 			</Link>
 		</Div1>
