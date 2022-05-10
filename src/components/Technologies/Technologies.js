@@ -1,5 +1,11 @@
 import React from "react"
-import { DiFirebase, DiPython, DiReact, DiSwift, DiZend } from "react-icons/di"
+import { DiPython, DiGithubBadge } from "react-icons/di"
+import {
+	SiTableau,
+	SiMicrosoftexcel,
+	SiAdobecreativecloud,
+} from "react-icons/si"
+import { AiOutlineConsoleSql } from "react-icons/ai"
 import {
 	Section,
 	SectionDivider,
@@ -25,22 +31,40 @@ const Technologies = () => (
 		</SectionText>
 		<List>
 			<ListItem>
-				<DiReact size="3rem" />
-				<ListContainer>Front-End</ListContainer>
+				<AiOutlineConsoleSql size="3rem" />
+				<ListContainer>SQL</ListContainer>
 				Expereince with <br />
-				React.js
+				MySQL • Postgresql • Sqlite
 			</ListItem>
 			<ListItem>
-				<DiFirebase size="3rem" />
-				<ListContainer>Back-End</ListContainer>
+				<DiPython size="3rem" />
+				<ListContainer>Data Analysis</ListContainer>
 				Expereince with <br />
-				Node and Databases
+				Python • SPSS
 			</ListItem>
 			<ListItem>
-				<DiZend size="3rem" />
-				<ListContainer>UI/UX</ListContainer>
+				<SiTableau size="3rem" />
+				<ListContainer>Data Visualization</ListContainer>
 				Expereince with <br />
-				Tools like Figma
+				Tableau
+			</ListItem>
+			<ListItem>
+				<SiMicrosoftexcel size="3rem" />
+				<ListContainer>Spreadsheet</ListContainer>
+				Expereince with <br />
+				Microsoft Excel & VBA
+			</ListItem>
+			<ListItem>
+				<DiGithubBadge size="3rem" />
+				<ListContainer>Version Contol System</ListContainer>
+				Expereince with <br />
+				Github
+			</ListItem>
+			<ListItem>
+				<SiAdobecreativecloud size="3rem" />
+				<ListContainer>Design</ListContainer>
+				Expereince with <br />
+				Photoshop • Illustrator
 			</ListItem>
 		</List>
 	</Section>
