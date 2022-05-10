@@ -22,6 +22,7 @@ import {
 
 const Technologies = () => (
 	<Section nopadding id="tech">
+		<br />
 		<SectionDivider />
 		<br />
 		<SectionTitle>Technologies</SectionTitle>
