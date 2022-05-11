@@ -33,7 +33,7 @@ const Projects = () => (
 							<HeaderThree title>{title}</HeaderThree>
 							<Hr />
 						</TitleContent>
-						<CardInfo>{description}</CardInfo>
+						<CardInfo className="card-info">{description}</CardInfo>
 						<br />
 						<div>
 							<TitleContent>Stack</TitleContent>
