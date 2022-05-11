@@ -27,45 +27,82 @@ const Technologies = () => (
 		<br />
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I've worked with a range of technologies in the web development
-			world From Back-end to Design.
+			I've worked with a range of technologies in Data Analytics, Business
+			Intelligence and Design.
 		</SectionText>
 		<List>
 			<ListItem>
-				<AiOutlineConsoleSql size="3rem" />
-				<ListContainer>SQL</ListContainer>
-				Expereince with <br />
-				MySQL • Postgresql • Sqlite
+				<picture>
+					<AiOutlineConsoleSql size="3rem" />
+				</picture>
+				<ListContainer>
+					<ListTitle>SQL</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						MySQL • Postgresql • Sqlite
+					</ListParagraph>
+				</ListContainer>
 			</ListItem>
 			<ListItem>
-				<DiPython size="3rem" />
-				<ListContainer>Data Analysis</ListContainer>
-				Expereince with <br />
-				Python • SPSS
+				<picture>
+					<DiPython size="3rem" />
+					{/* <SiMicrosoftexcel size="3rem" /> */}
+				</picture>
+				<ListContainer>
+					<ListTitle>Data Analysis</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						Python • SPSS • Excel
+					</ListParagraph>
+				</ListContainer>
 			</ListItem>
 			<ListItem>
-				<SiTableau size="3rem" />
-				<ListContainer>Data Visualization</ListContainer>
-				Expereince with <br />
-				Tableau
+				<picture>
+					<SiTableau size="3rem" />
+				</picture>
+				<ListContainer>
+					<ListTitle>Data Visualization</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						Tableau
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			{/* <ListItem>
+				<picture>
+					<SiMicrosoftexcel size="3rem" />
+				</picture>
+				<ListContainer>
+					<ListTitle>Spreadsheet</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						Microsoft Excel & VBA
+					</ListParagraph>
+				</ListContainer>
+			</ListItem> */}
+			<ListItem>
+				<picture>
+					<DiGithubBadge size="3rem" />
+				</picture>
+				<ListContainer>
+					<ListTitle>Version Contol System</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						Github
+					</ListParagraph>
+				</ListContainer>
 			</ListItem>
 			<ListItem>
-				<SiMicrosoftexcel size="3rem" />
-				<ListContainer>Spreadsheet</ListContainer>
-				Expereince with <br />
-				Microsoft Excel & VBA
-			</ListItem>
-			<ListItem>
-				<DiGithubBadge size="3rem" />
-				<ListContainer>Version Contol System</ListContainer>
-				Expereince with <br />
-				Github
-			</ListItem>
-			<ListItem>
-				<SiAdobecreativecloud size="3rem" />
-				<ListContainer>Design</ListContainer>
-				Expereince with <br />
-				Photoshop • Illustrator
+				<picture>
+					<SiAdobecreativecloud size="3rem" />
+				</picture>
+				<ListContainer>
+					<ListTitle>Design</ListTitle>
+					<ListParagraph>
+						Experience with <br />
+						Photoshop • Illustrator
+					</ListParagraph>
+				</ListContainer>
 			</ListItem>
 		</List>
 	</Section>
