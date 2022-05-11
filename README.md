@@ -9,8 +9,8 @@ Personal Portafolio Website
     -   [x] Complelte Hero
     -   [x] Complete Projects
     -   [x] Complete Technologies
-    -   [ ] Complete Timeline
--   [ ] Complete Acomplishments
+    -   [x] Complete About / Timeline
+    -   [ ] Complete Acomplishments
 -   [ ] Complete Footer
 -   [ ] Personalized site
 -   [x] Delete Unnecesary items from repository
