@@ -10,7 +10,7 @@ Personal Portafolio Website
     -   [x] Complete Projects
     -   [x] Complete Technologies
     -   [x] Complete About / Timeline
-    -   [ ] Complete Acomplishments
+    -   [x] Complete Acomplishments
 -   [ ] Complete Footer
 -   [ ] Personalized site
 -   [x] Delete Unnecesary items from repository
