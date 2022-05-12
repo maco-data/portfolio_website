@@ -11,7 +11,7 @@ Personal Portafolio Website
     -   [x] Complete Technologies
     -   [x] Complete About / Timeline
     -   [x] Complete Acomplishments
--   [ ] Complete Footer
+-   [x] Complete Footer
 -   [ ] Personalized site
 -   [x] Delete Unnecesary items from repository
     -   [x] .next
