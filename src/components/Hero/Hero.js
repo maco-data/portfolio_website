@@ -16,8 +16,7 @@ const Hero = () => (
 				Welcome to my Portfolio
 			</SectionTitle>
 			<SectionText>
-				“Maybe stories are just data with a soul.” <br />
-				&nbsp;&nbsp;&nbsp;&nbsp;— Brené Brown
+				“Maybe stories are just data with a soul.” — Brené Brown
 			</SectionText>
 			<Button
 				onClick={() =>
