@@ -71,7 +71,8 @@ const Timeline = () => {
 			<SectionText>
 				As a Data Professional, I have a strong passion for developing
 				Dashboards, Reports, Data Models, and Performance related
-				insights.
+				insights. I'm a Photography hobbyist, Design advocate, and
+				Aviation lover.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
