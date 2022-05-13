@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 import {
@@ -18,11 +19,7 @@ const Hero = () => (
 			<SectionText>
 				“Maybe stories are just data with a soul.” — Brené Brown
 			</SectionText>
-			<Button
-				onClick={() =>
-					(window.location =
-						"https://www.linkedin.com/in/maco-network/")
-				}>
+			<Button onClick={() => (window.location = "#footer")}>
 				Let's get in contact
 			</Button>
 		</LeftSection>
