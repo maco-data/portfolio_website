@@ -72,6 +72,7 @@ export const CardInfo = styled.p`
 	line-height: 24px;
 	text-align: justify;
 	@media ${props => props.theme.breakpoints.sm} {
+		height: 300px;
 		padding: 0 3.125rem;
 	}
 `

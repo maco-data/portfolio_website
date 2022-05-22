@@ -17,7 +17,8 @@ const Hero = () => (
 				Welcome to my Portfolio
 			</SectionTitle>
 			<SectionText>
-				“Maybe stories are just data with a soul.” — Brené Brown
+				"This is a small collection of projects, from Data Analysis to
+				Logo Design, that I am excited to share with the world."
 			</SectionText>
 			<Button onClick={() => (window.location = "#footer")}>
 				Let's get in contact
