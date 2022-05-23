@@ -25,8 +25,8 @@ export const projects = [
 			"This project was a Machine Learning practice. I scraped the data and then used it to learn how to predict the winner of football matches in the English Premier League (EPL). Who does not love football? and what better to know if your favorite team is more likely to win than your friends’ favorite team. I used only the last 5  years (2017 to 2022).",
 		image: "/images/3.png",
 		tags: ["Jupyter Notebook", "Scikit Learn", "Beautiful Soup"],
-		source: "https://github.com/maco-data/ML_EPL",
-		visit: "https://google.com",
+		source: "https://github.com/maco-data/ML_EPL/blob/main/predictions.ipynb",
+		visit: "https://github.com/maco-data/ML_EPL",
 		id: 2,
 	},
 	// {
