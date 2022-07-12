@@ -9,9 +9,9 @@
 **/coverage
 
 # next.js
-# **/.next
-# **/.next/
-# **/_next
+**/.next
+**/.next/
+**/_next
 
 # production
 .firebase/
