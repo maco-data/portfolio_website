@@ -13,7 +13,9 @@
 **/.next/
 **/_next
 
+
 # production
+.firebase
 .firebase/
 firebase-debug.log
 .github/wokrflows/

@@ -1,8 +1,9 @@
 export const projects = [
 	{
+		// keep description to <55 words
 		title: "Mapping Data",
 		description:
-			"My flight history as an ex-Cabin Crew plotted on a map! 1351 flights narrow down to every unique flight I ever did. 10 years over 9000 hours (DBZ pun not intended). This project uses a dataset I build up after my flight logbook. I took the unique flights and the coordinates of the Airports and plotted the data on top of the Nasa Black Marble world map.",
+			"My flight history as a Cabin Crew! It accounts for 1351 flights, ten years, and over 9000 hours (DBZ pun not intended). This project uses a dataset I build up after my flight logbook. I plotted all the flights and the airport data on a map. It looks like an airline network.",
 		image: "/images/1.png",
 		tags: ["Phyton", "Pandas", "MatplotLib"],
 		source: "https://github.com/maco-data/Flight-History/blob/main/mapper.py",
@@ -10,9 +11,9 @@ export const projects = [
 		id: 0,
 	},
 	{
-		title: "Flights Book Dashboard",
+		title: "Logbook Dashboard",
 		description:
-			"A small tool to automate the extraction of a crew duty report. The information is in many tables inside a pdf with several pages which make it tedious to work with. I extracted the data then performed an analysis on it, then I used Tableau to create a dashboard. I you are an Ex-EK crew let me know if you would like to try this!",
+			"A script to automate the extraction of data from a crew duty report. The information from tables inside a pdf file. I extracted the data, analyzed it, and used Tableau to create a dashboard. This automation saves quite some time and does a great job of organizing the information for better visualization.",
 		image: "/images/2.png",
 		tags: ["Python", "Pandas", "Matplotlib", "Tableau"],
 		source: "https://github.com/maco-data/Crew-Report-Generator",
@@ -22,7 +23,7 @@ export const projects = [
 	{
 		title: "Web Scraping Data and Machine Learning",
 		description:
-			"This project was a Machine Learning practice. I scraped the data and then used it to learn how to predict the winner of football matches in the English Premier League (EPL). Who does not love football? and what better to know if your favorite team is more likely to win than your friends’ favorite team. I used only the last 5  years (2017 to 2022).",
+			"Machine Learning practice. I extracted the data, transformed it, and then used it to predict the winner of football matches in the English Premier League (EPL). Who does not love football? I only used data from the last five seasons (2017 to 2022). I keep iterating on this project.",
 		image: "/images/3.png",
 		tags: ["Jupyter Notebook", "Scikit Learn", "Beautiful Soup"],
 		source: "https://github.com/maco-data/ML_EPL/blob/main/predictions.ipynb",
@@ -42,8 +43,10 @@ export const projects = [
 ]
 
 export const TimeLineData = [
-	{ year: 2015, text: "Started my journey as Designer" },
-	{ year: 2018, text: "Dived into the world of Data Science" },
-	{ year: 2021, text: "Shared my projects with the world" },
-	{ year: 2022, text: "Looking for new challenges" },
+	{ year: 2008, text: "Worked as a Aircraft Maintenance Technician." },
+	{ year: 2010, text: "Became a Cabin Crew and traveled the world." },
+	{ year: 2015, text: "Started designing logos for friends and family." },
+	{ year: 2018, text: "Dived into the world of Data Science." },
+	{ year: 2021, text: "Shared some of my projects with the world." },
+	{ year: 2022, text: "Looking to learn and experience new things!" },
 ]

@@ -24,4 +24,4 @@ Personal Portafolio Website
     -   [x] .next
     -   [x] node_modules
 -   [ ] Fix minor issues
-    -   [ ] discrepancies in different media
+    -   [x] discrepancies in different media

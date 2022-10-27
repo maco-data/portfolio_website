@@ -26,7 +26,7 @@ const Timeline = () => {
 	const carouselRef = useRef()
 
 	const scroll = (node, left) => {
-		return node.scrollTo({ left, behavior: "smooth" })
+		return window.scrollTo({ left, behavior: "smooth" })
 	}
 
 	const handleClick = (e, i) => {
@@ -69,10 +69,11 @@ const Timeline = () => {
 		<Section id="about">
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				As a Data Professional, I have a strong passion for developing
-				Dashboards, Reports, Data Models, and Performance related
-				insights. I'm a Photography hobbyist, Design advocate, and
-				Aviation lover.
+				My MO is to learn something new every day. I love brewing
+				coffee; I like going back and forth between a good Sci-Fi and
+				Non-Fiction book! And please don't ask me to lie down on the
+				grass and watch airplanes because I will do that for the rest of
+				my life!
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>

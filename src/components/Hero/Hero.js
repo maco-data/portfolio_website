@@ -17,8 +17,8 @@ const Hero = () => (
 				Welcome to my Portfolio
 			</SectionTitle>
 			<SectionText>
-				"This is a small collection of projects I am excited to share
-				with the world, from Data Analysis to Logo Design."
+				"This is a small collection of projects I'm excited to share!
+				From Data Science, Web Development, Logo Design & more."
 			</SectionText>
 			<Button onClick={() => (window.location = "#footer")}>
 				Let's get in contact
