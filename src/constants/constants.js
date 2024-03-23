@@ -48,5 +48,12 @@ export const TimeLineData = [
 	{ year: 2015, text: "Started designing logos for friends and family." },
 	{ year: 2018, text: "Dived into the world of Data Science." },
 	{ year: 2021, text: "Shared some of my projects with the world." },
-	{ year: 2022, text: "Looking to learn and experience new things!" },
+	{
+		year: 2022,
+		text: "Worked on several Data Science projects, always learning!",
+	},
+	{
+		year: 2023,
+		text: "Went back to University to study Computer Engineering.",
+	},
 ]

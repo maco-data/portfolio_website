@@ -1,11 +1,11 @@
 import React from "react"
-import { DiPython, DiGithubBadge } from "react-icons/di"
-import {
-	SiTableau,
-	SiMicrosoftexcel,
-	SiAdobecreativecloud,
-} from "react-icons/si"
 import { AiOutlineConsoleSql } from "react-icons/ai"
+import { DiGithubBadge, DiPython } from "react-icons/di"
+import {
+	SiAdobecreativecloud,
+	SiMicrosoftexcel,
+	SiTableau,
+} from "react-icons/si"
 import {
 	Section,
 	SectionDivider,
@@ -25,7 +25,7 @@ const Technologies = () => (
 		<br />
 		<SectionDivider />
 		<br />
-		<SectionTitle>Technologies</SectionTitle>
+		<SectionTitle>Technical Skills</SectionTitle>
 		<SectionText>
 			I've worked with a range of technologies in Data Analytics, Business
 			Intelligence and Design.
@@ -36,7 +36,7 @@ const Technologies = () => (
 					<AiOutlineConsoleSql size="3rem" />
 				</picture>
 				<ListContainer>
-					<ListTitle>SQL</ListTitle>
+					<ListTitle>Databases</ListTitle>
 					<ListParagraph>
 						Experience with <br />
 						MySQL • Postgresql • Sqlite

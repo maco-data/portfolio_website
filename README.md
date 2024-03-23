@@ -24,4 +24,12 @@ Personal Portafolio Website
     -   [x] .next
     -   [x] node_modules
 -   [ ] Fix minor issues
+
     -   [x] discrepancies in different media
+
+-   [ ] 2024 Changes
+    -   [ ] Change the Hero section animation to 3d asset
+    -   [x] Remove Projects section
+    -   [x] Update Header section
+    -   [x] Add updates to Timeline
+    -   [x] Rewrite Hero section welcome message
