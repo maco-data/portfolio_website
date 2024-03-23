@@ -21,17 +21,18 @@ import {
 const Header = () => (
 	<Container>
 		<Div1>
-			<Link href="/">
-				<a
-					style={{
-						display: "flex",
-						alignItems: "center",
-						color: "white",
-						marginBottom: "30",
-					}}>
-					<DiBrackets size="3rem" /> <Span>Marco Camarena</Span>
-				</a>
-			</Link>
+			<Link
+                href="/"
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "white",
+                    marginBottom: "30",
+                }}>
+
+                <DiBrackets size="3rem" /> <Span>Marco Camarena</Span>
+
+            </Link>
 		</Div1>
 		<Div2>
 			{/* <li>
@@ -40,12 +41,12 @@ const Header = () => (
 				</Link>
 			</li> */}
 			<li>
-				<Link href="#tech">
+				<Link href="#tech" legacyBehavior>
 					<NavLink>Skills</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#about">
+				<Link href="#about" legacyBehavior>
 					<NavLink>About</NavLink>
 				</Link>
 			</li>
